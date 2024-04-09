@@ -22,9 +22,14 @@
 
 <body>
     <header id="header">
-        <h1>Shopping Car</h1> 
-        <img class="carrito" src="img/carrito-de-compras.png" alt="carrito">
+        <h1>Shopping Virtual</h1> 
+        <div>
+            <img id="carrito" class="carrito" src="img/carrito-de-compras.png" alt="carrito">
+            <div id="numero"></div>
+        </div>
     </header>
+
+    <main>
     <div id="contenedor" class="contenedor">
         <div>
             <img src="img/image1.jpeg" alt="producto 1">
@@ -75,8 +80,20 @@
             </div>
         </div>
     </div>
-    
-    <script src="app.js"></script>
+    </main>
+
+<div id="contenedorCompra">
+    <div class="informacionCompra" id="informacionCompra"></div>
+    <h2>cesta</h2>
+    <p class="x" id="x">x</p>
+</div>
+
+<div class="productosCompra" id="productosCompra"></div>
+<div class=" total" id="total></div>
+<button>finalizarCompra</button>
+</div>
+
+    <script src=".admin.js"></script>
 
 </body>
 
